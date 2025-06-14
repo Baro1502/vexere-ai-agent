@@ -6,7 +6,8 @@ This repo is used for Vexere's interview test only.
 
 - Java 11 +
 - Python 3.11 +
-
+- Ollama: https://ollama.com/download
+  - Firstly. after installation, please pull the models used in the code (Currently using `qwen3:1.7B` for `text` and `mistral-small3.1` for `image` multimodal)
 # How to run
 
 - From root directory, `cd  admin-servce` and run `pip install -r requirements.txt` to install packages
