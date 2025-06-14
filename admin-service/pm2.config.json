@@ -1,0 +1,15 @@
+{
+    "apps": [
+      {
+        "name": "vexere-agent",
+        "script": "run.py",
+        "env_dev": {
+          "APP_ENV": "dev"
+        },
+        "env_staging": {
+          "APP_ENV": "staging"
+        }
+      }
+    ]
+  }
+  
